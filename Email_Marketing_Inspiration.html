@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspiration - Đơn Vị Thi Công Gian Hàng Triển Lãm Cao Cấp</title>
+    <style>
+        body { 
+            margin: 0; 
+            padding: 0; 
+            font-family: 'Helvetica Neue', 'Segoe UI', Arial, sans-serif; 
+            background-color: #f7f7f9; 
+            color: #444444; 
+        }
+        .email-wrapper { 
+            max-width: 680px; 
+            margin: 50px auto; 
+            background-color: #ffffff; 
+            box-shadow: 0 15px 45px rgba(0,0,0,0.05); 
+            border: 1px solid #f0f0f0;
+            overflow: hidden;
+        }
+        
+        /* Header & Logo */
+        .header { 
+            text-align: center; 
+            padding: 30px 30px 100px 30px; 
+            background-color: #172a46;
+            background-image: linear-gradient(to bottom, rgba(23, 42, 70, 0.95) 0%, rgba(23, 42, 70, 0.6) 50%, rgba(23, 42, 70, 0.1) 100%), url('file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/heading.jpg');
+            background-size: cover;
+            background-position: center center;
+            border-bottom: 2px solid #d4af37;
+        }
+        .header img { 
+            max-width: 140px; 
+            height: auto; 
+            display: block;
+            margin: 0 auto;
+            border: none;
+            filter: drop-shadow(0px 4px 12px rgba(0,0,0,0.4));
+        }
+        .hook-container {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .hook-line {
+            width: 40px; 
+            height: 1px; 
+            background-color: #d4af37; 
+            margin: 0 auto 25px auto;
+        }
+        .hook-text {
+            color: #d4af37; 
+            font-size: 24px; 
+            letter-spacing: 5px; 
+            text-transform: uppercase; 
+            margin-bottom: 12px; 
+            font-weight: 700;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+        }
+        .hook-subtext {
+            color: #ffffff; 
+            font-size: 11px; 
+            letter-spacing: 6px; 
+            text-transform: uppercase; 
+            font-weight: 600; 
+            text-shadow: 0 2px 8px rgba(0,0,0,0.9);
+        }
+        
+        /* Intro Content */
+        .content { 
+            padding: 40px 40px 20px 40px; 
+        }
+        .intro-text { 
+            font-size: 14.5px; 
+            line-height: 1.6; 
+            text-align: justify; 
+            color: #555555; 
+        }
+        .intro-text p {
+            margin: 0 0 10px 0;
+        }
+        .intro-text strong {
+            color: #172a46;
+            font-size: 19px;
+            letter-spacing: 1px;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+        .service-list {
+            margin-top: 15px; 
+            padding-left: 0; 
+            line-height: 1.5;
+            list-style: none;
+        }
+        .service-list li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+        .service-list li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 10px;
+            width: 4px;
+            height: 4px;
+            background-color: #d4af37;
+            border-radius: 50%;
+        }
+        
+        /* Section Titles */
+        .section-header { 
+            text-align: center; 
+            margin: 60px 0 35px 0; 
+            padding: 35px 20px;
+            background-color: #172a46;
+            border-left: 2px solid #d4af37;
+            border-right: 2px solid #d4af37;
+        }
+        .section-header h2 { 
+            font-size: 22px; 
+            color: #ffffff; 
+            text-transform: uppercase; 
+            margin: 0 0 12px 0; 
+            letter-spacing: 5px; 
+            font-weight: 600;
+        }
+        .section-header p { 
+            font-size: 11px; 
+            color: #d4af37; 
+            margin: 0; 
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+        
+        /* Business Contact Section - Ultra Premium */
+        .contact-section { 
+            background: #ffffff;
+            padding: 60px 45px 50px 45px; 
+            text-align: center; 
+            border-top: 1px solid #f0f0f0;
+        }
+        .contact-section h3 { 
+            margin: 0 0 45px 0; 
+            font-size: 20px; 
+            text-transform: uppercase; 
+            letter-spacing: 5px; 
+            color: #172a46; 
+            font-weight: 600;
+        }
+        
+        .btn { 
+            text-decoration: none; 
+            font-size: 11px; 
+            text-transform: uppercase; 
+            letter-spacing: 3px; 
+            text-align: center; 
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+        .btn-navy { 
+            background-color: #172a46; 
+            color: #ffffff; 
+            border: 1px solid #172a46;
+        }
+        
+        .btn-outline { 
+            background-color: transparent; 
+            color: #172a46; 
+            border: 1px solid #172a46; 
+        }
+        
+        .footer { 
+            background-color: #111111; 
+            padding: 30px; 
+            text-align: center; 
+            color: #666666; 
+            font-size: 10px; 
+            text-transform: uppercase; 
+            letter-spacing: 4px; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="email-wrapper">
+    <!-- Header -->
+    <div class="header">
+        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/logo.png" alt="Inspiration Logo">
+        
+        <div class="hook-container">
+            <div class="hook-line"></div>
+            <div class="hook-text">Thiết Kế & Thi Công</div>
+            <div class="hook-subtext">Gian Hàng Triển Lãm Chất Lượng</div>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        <div class="intro-text">
+            <strong>CÔNG TY TNHH INSPIRATION MEDIA ADVERTISING</strong>
+            <p>Đơn vị chuyên thiết kế và thi công gian hàng triển lãm tại TPHCM, Hà Nội và Đà Nẵng.</p>
+            <p>Chúng tôi đồng hành và tối ưu hóa khối lượng công việc cho doanh nghiệp mỗi mùa triển lãm:</p>
+            <ul class="service-list">
+                <li>Thiết kế & thi công gian hàng ấn tượng, thu hút, phù hợp ngân sách.</li>
+                <li>Xử lý trọn gói giấy tờ với BTC (đăng ký điện, nhà thầu, thẻ exhibitor, khí nén...).</li>
+                <li>Lên ý tưởng hoạt động (minigame, chương trình ưu đãi, dùng thử) thu hút khách tham quan.</li>
+                <li>Thiết kế & in ấn ấn phẩm (catalog, brochure, flyer, namecard...).</li>
+                <li>Cung cấp nhân sự chuyên nghiệp (MC, PGs, Helper, Phiên dịch viên, Mascot...).</li>
+                <li>Tư vấn các giải pháp thi công tối ưu nhất theo ngân sách yêu cầu.</li>
+            </ul>
+        </div>
+
+        <!-- Custom Booth -->
+        <div class="section-header">
+            <h2>Gian Hàng Thiết Kế</h2>
+            <p>Thiết kế sáng tạo &bull; Thi công chất lượng</p>
+        </div>
+        
+        <!-- Tĩnh Gallery: Gian Hàng Thiết Kế (Grid 2 cột tĩnh dành cho copy-paste) -->
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #f7f7f9;">
+            <!-- Hàng 1 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Foodexpo/z7232451452319_ea51700d8f38cef20c53b4317840c177.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="FOODEXPO">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">FOODEXPO</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Foodexpo/z7232451471760_5a1e9cc8e119497085992efbae09899b.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="FOODEXPO">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">FOODEXPO</span></div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Hàng 2 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/HAWA2027/z7995223694881_495b56ccc9e863984ebee9f47b4f3fb2.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="HAWA 2027">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">HAWA 2027</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/HAWA2027/z7995223757900_0265d6b8b7405060606ea25d2fe3a50b.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="HAWA 2027">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">HAWA 2027</span></div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Hàng 3 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/HAWA2027/z7995223872289_edac3ae1e061534334d020a4e07b6118.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="HAWA 2027">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">HAWA 2027</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Hawa/z7413456808678_1f323217d093211f8500d2f9d2a100e1.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="HAWA">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">HAWA</span></div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Hàng 4 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Hawa/z7413456867290_02cfde4e9e25d8e165b38254370b48e6.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="HAWA">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">HAWA</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Hawa/z7413456981775_470d5534e09c8e8f47257f0e0aa6b1e9.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="HAWA">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">HAWA</span></div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Hàng 5 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Shoes&leather/1783481135984_5071751212619009197_g3607137551428097472_cd26590179bbc16b315098192321550c.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="SHOES & LEATHER">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">SHOES & LEATHER</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/beautysummit/1781787297732_5071751212619009197_g379169494544903820_861a0e2b8069b0f43533352ac06dc8eb.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="BEAUTY SUMMIT">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">BEAUTY SUMMIT</span></div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Hàng 6 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/hawa2024/z6995596714332_51d7e3eef4226cdb6fceaf236756d173.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="HAWA 2024">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">HAWA 2024</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/hawa2024/z6995968565482_f5a5d8a695c684d0d7f808f7140c01aa.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="HAWA 2024">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">HAWA 2024</span></div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Hàng 7 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Vietbaby/z7731209101268_f047b5d96c66d556658aa8f657d9d4fb.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="VIETBABY">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">VIETBABY</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/hawa2024/1761812230400_5071751212619009197_g1571900212329999647_7dbf2cf39f394acc73c97f444a585432.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="HAWA 2024">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">HAWA 2024</span></div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Hàng 8 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/saigontex/z7718571220273_dc15f4fcd51a7f17985a2d5634f91c48.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="SAIGONTEX">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">SAIGONTEX</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/saigontex/z7735539023472_49ea5d2eaddf125e7ebd3c5eff3522e7.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="SAIGONTEX">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">SAIGONTEX</span></div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Hàng 9 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/saigontex/z7735539035754_87079ead35372817499b16f8b1fd081f.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="SAIGONTEX">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">SAIGONTEX</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/saigontex/z7735539046072_49c7ab8bd0f3a33699744d33141cb827.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="SAIGONTEX">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">SAIGONTEX</span></div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Hàng 10 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/saigontex/z7735539047225_34c31f2d60d1b67f82584487e82871dd.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="SAIGONTEX">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">SAIGONTEX</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/saigontex/z7735539047522_af096b85e25732f9ad181faaa890322a.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="SAIGONTEX">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">SAIGONTEX</span></div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Hàng 11 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/saigontex/z7735539061339_1bfa66eb2ee7ae8b40196e4285cd42a8.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="SAIGONTEX">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">SAIGONTEX</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/saigontex/z7735539078179_61d6d8139ad8017bec252305c1a0ae0c.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="SAIGONTEX">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">SAIGONTEX</span></div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Hàng 12 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/vibe/1785749021037_210164083566854181_g379169494544903820_591f0a180fdc5c280483615bbd448288.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="VIBE">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">VIBE</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/vibe/1785749021083_210164083566854181_g379169494544903820_06684f37010fb18e12aed85b8b3a802e.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="VIBE">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">VIBE</span></div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Hàng 13 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/vibe/1785749021182_210164083566854181_g379169494544903820_7bd0faa1ce7b55bf7a363e48090dea0a.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="VIBE">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">VIBE</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/vietfish/z7016526012688_0f4e923d44eaa5ef32382b01644008e9.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="VIETFISH">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">VIETFISH</span></div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Hàng 14 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/vietnamwood/z7033310808328_b3567f4ec12277a473270ebf5e3f1ad9.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="VIETNAMWOOD">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">VIETNAMWOOD</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/vietnamwood/z7034563641723_bed94654cce5e192abdd7f11b4c0157f.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="VIETNAMWOOD">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 13px; font-weight: bold; color: #172a46; letter-spacing: 2px;">VIETNAMWOOD</span></div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Standard Booth -->
+        <div class="section-header">
+            <h2>Gian Hàng Tiêu Chuẩn</h2>
+            <p>Tối ưu ngân sách &bull; Triển khai tinh gọn</p>
+        </div>
+        
+        <!-- Tĩnh Gallery: Gian Hàng Tiêu Chuẩn (Grid 2 cột tĩnh) -->
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #f7f7f9; margin-bottom: 30px;">
+            <!-- Hàng 1 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Gian tiêu chuẩn/1785140709452_5071751212619009197_5071751212619009197_22b15c025b85e06e4e5a9e4055ca2fde.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="Gian Tiêu Chuẩn">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 11px; font-weight: bold; color: #555555; letter-spacing: 1px;">DÁN DECAL</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Gian tiêu chuẩn/1785140858319_5071751212619009197_5071751212619009197_d4f18dbd088f889904dc96582e2d74ba.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="Gian Tiêu Chuẩn">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 11px; font-weight: bold; color: #555555; letter-spacing: 1px;">DÁN DECAL</span></div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Hàng 2 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Gian tiêu chuẩn/1.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="Gian Tiêu Chuẩn">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 11px; font-weight: bold; color: #555555; letter-spacing: 1px;">DÁN DECAL</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Gian tiêu chuẩn/1785302384136_5071751212619009197_g3607137551428097472_59b00c111fcbfc6284f2172e901490a6.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="Gian Tiêu Chuẩn">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 11px; font-weight: bold; color: #555555; letter-spacing: 1px;">DÁN DECAL</span></div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Hàng 3 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Gian tiêu chuẩn/1785302384208_5071751212619009197_g3607137551428097472_5dd01c802ca0e2d645e484ca2a2000a6.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="Gian Tiêu Chuẩn">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 11px; font-weight: bold; color: #555555; letter-spacing: 1px;">DÁN DECAL</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Gian tiêu chuẩn/703665771_122262848012142468_6385698554884380573_n.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="Gian Tiêu Chuẩn">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 11px; font-weight: bold; color: #555555; letter-spacing: 1px;">DÁN DECAL</span></div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Hàng 4 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Gian tiêu chuẩn/Hiflex.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="Gian Tiêu Chuẩn">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 11px; font-weight: bold; color: #555555; letter-spacing: 1px;">DỰNG HIFLEX</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Gian tiêu chuẩn/Hiflex%20(2).jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="Gian Tiêu Chuẩn">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 11px; font-weight: bold; color: #555555; letter-spacing: 1px;">DỰNG HIFLEX</span></div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Hàng 5 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Gian tiêu chuẩn/Hiflex%20(3).jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="Gian Tiêu Chuẩn">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 11px; font-weight: bold; color: #555555; letter-spacing: 1px;">DỰNG HIFLEX</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Gian tiêu chuẩn/z7215148633231_a2261cdf9bc605f58ce085248730479a.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="Gian Tiêu Chuẩn">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 11px; font-weight: bold; color: #555555; letter-spacing: 1px;">DÁN DECAL</span></div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Hàng 6 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Gian tiêu chuẩn/z7232420851822_d377bc231928fae15df3f3c640ef3cac.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="Gian Tiêu Chuẩn">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 11px; font-weight: bold; color: #555555; letter-spacing: 1px;">DÁN DECAL</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Gian tiêu chuẩn/z7286924588448_1a11c7e1381c7e522e454a51e51bad53.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="Gian Tiêu Chuẩn">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 11px; font-weight: bold; color: #555555; letter-spacing: 1px;">DÁN DECAL</span></div>
+                    </div>
+                </td>
+            </tr>
+            <!-- Hàng 7 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Gian tiêu chuẩn/z7446326333287_b26ee9d0196ea9cc936fd493797b4926.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="Gian Tiêu Chuẩn">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 11px; font-weight: bold; color: #555555; letter-spacing: 1px;">DÁN DECAL</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <!-- Ô trống để cân bằng grid lẻ -->
+                </td>
+            </tr>
+            <!-- Hàng 8 -->
+            <tr>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Gian tiêu chuẩn/1786950276107_210164083566854181_g3607137551428097472_78d9b3422dd371c488309d54dab70075.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="Gian Tiêu Chuẩn">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 11px; font-weight: bold; color: #555555; letter-spacing: 1px;">DÁN DECAL</span></div>
+                    </div>
+                </td>
+                <td width="50%" valign="top" style="padding: 4px;">
+                    <div style="background-color: transparent; border: none; padding: 2px;">
+                        <img src="file:///c:/Users/MSI/Desktop/Hình headling/Trien lam/Gian tiêu chuẩn/1788751563867_210164083566854181_g3607137551428097472_e331c399abfc07a65eeb7eb7cc75ce0a.jpg" width="100%" style="display: block; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" alt="Gian Tiêu Chuẩn">
+                        <div style="text-align: center; padding: 12px 0 4px 0;"><span style="font-size: 11px; font-weight: bold; color: #555555; letter-spacing: 1px;">DÁN DECAL</span></div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Redesigned Grid Contact Section -->
+    <div class="contact-section">
+        <h3>Thông Tin Liên Hệ</h3>
+        
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 45px;">
+            <tr>
+                <!-- Left Column (NAVY) -->
+                <td width="50%" align="center" valign="top" style="padding: 4px;">
+                    <div style="background-color: #172a46; border: 1px solid #172a46; padding: 20px 10px; height: 90px; box-shadow: 0 10px 25px rgba(23,42,70,0.15);">
+                        <div style="margin-bottom: 12px;">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        </div>
+                        <div style="color: #d4af37; font-size: 10px; letter-spacing: 3px; font-weight: bold; margin-bottom: 8px;">HOTLINE</div>
+                        <div style="color: #ffffff; font-size: 14px; letter-spacing: 1px; line-height: 1.6;">
+                            0862.739.275<br>
+                            0941.335.985
+                        </div>
+                    </div>
+                </td>
+                <!-- Right Column (WHITE) -->
+                <td width="50%" align="center" valign="top" style="padding: 4px;">
+                    <div style="background-color: #ffffff; border: 1px solid #eaeaea; padding: 20px 10px; height: 90px;">
+                        <div style="margin-bottom: 12px;">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#172a46" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                        </div>
+                        <div style="color: #172a46; font-size: 10px; letter-spacing: 3px; font-weight: bold; margin-bottom: 8px;">ZALO / WECHAT</div>
+                        <div style="color: #444444; font-size: 14px; letter-spacing: 1px; line-height: 1.6; margin-top: 10px; font-weight: bold;">
+                            0862.730.275
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <!-- Left Column (WHITE) -->
+                <td width="50%" align="center" valign="top" style="padding: 4px;">
+                    <div style="background-color: #ffffff; border: 1px solid #eaeaea; padding: 20px 10px; height: 90px;">
+                        <div style="margin-bottom: 12px;">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#172a46" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </div>
+                        <div style="color: #172a46; font-size: 10px; letter-spacing: 3px; font-weight: bold; margin-bottom: 8px;">EMAIL</div>
+                        <div style="color: #555555; font-size: 11px; letter-spacing: 1px; line-height: 1.8;">
+                            kimngan@inspiration.com.vn<br>
+                            quynhanh@inspiration.com.vn
+                        </div>
+                    </div>
+                </td>
+                <!-- Right Column (NAVY) -->
+                <td width="50%" align="center" valign="top" style="padding: 4px;">
+                    <div style="background-color: #172a46; border: 1px solid #172a46; padding: 20px 10px; height: 90px; box-shadow: 0 10px 25px rgba(23,42,70,0.15);">
+                        <div style="margin-bottom: 12px;">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                        </div>
+                        <div style="color: #d4af37; font-size: 10px; letter-spacing: 3px; font-weight: bold; margin-bottom: 8px;">WEBSITE</div>
+                        <div style="color: #ffffff; font-size: 11px; letter-spacing: 1px; line-height: 1.6; margin-top: 10px;">
+                            <a href="http://exhibition.inspiration.com.vn" target="_blank" style="color: #ffffff; text-decoration: none;">exhibition.inspiration.com.vn</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+        <!-- Action Buttons -->
+        <div style="text-align: center;">
+            <a href="https://zalo.me/0862730275" target="_blank" class="btn btn-navy" style="display: inline-block; width: auto; padding: 18px 40px; margin: 0 10px 15px 10px;">TRÒ CHUYỆN ZALO</a>
+            <a href="mailto:kimngan@inspiration.com.vn" class="btn btn-outline" style="display: inline-block; width: auto; padding: 18px 40px; margin: 0 10px 15px 10px;">GỬI YÊU CẦU BÁO GIÁ</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        &copy; 2026 INSPIRATION MEDIA ADVERTISING.<br>ALL RIGHTS RESERVED.
+    </div>
+</div>
+
+</body>
+</html>
